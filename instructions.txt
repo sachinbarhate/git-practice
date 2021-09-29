@@ -1,0 +1,17 @@
+Create a branch and request a Pull Request
+
+1. Download latest code using 
+ git pull
+2. Check status of the branch
+ git branch
+3. Create branch using
+ git checkout -b "your-branch"
+4. Check branch - git branch
+5. Add the code or changed code file to the new branch
+ git add <new_code_file>
+6. Commit the new change to the new branch
+git commit -m "commit message"
+7. Push the new branch to origin 
+	git push master <your-branch>
+8. After the push, you have to create a pull request to merge the new branch.
+go to repo and create pull request
